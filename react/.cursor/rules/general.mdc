@@ -1,0 +1,57 @@
+---
+description: React tech interview prep project rules
+globs:
+alwaysApply: true
+---
+
+# React Tech Interview Prep
+
+## Project Overview
+This is a React practice environment for technical interview preparation. Each project is a self-contained coding challenge that tests specific React concepts and skills.
+
+## Project Structure
+- `src/projects/` - Individual React coding challenges
+- Each project folder contains: `App.tsx`, `App.css`, and `DESCRIPTION.md`
+- Switch between projects by changing the import in `src/main.tsx`
+
+## Creating New Challenges
+
+### 1. Project Setup
+- Create a new folder in `src/projects/`
+- Add `App.tsx` with basic component structure
+- Add `App.css` with styling
+- Import CSS in `App.tsx`: `import './App.css'`
+
+### 2. DESCRIPTION.md Format
+```
+# [Challenge Name]
+
+## Difficulty: [Easy/Medium/Hard/Expert]
+
+## Description
+[Brief explanation of what to build]
+
+## Requirements
+- [Specific requirement 1]
+- [Specific requirement 2]
+- [Specific requirement 3]
+```
+
+### 3. Implementation Guidelines
+- **Leave space for implementation**: Remove core logic, keep UI structure and layout
+- **Static values**: Use placeholder values instead of dynamic data
+- **Non-functional elements**: Keep UI components but remove event handlers and logic
+- **Import structure**: Keep necessary imports but remove unused ones
+- **Component structure**: Maintain the visual layout and styling
+
+### 4. Challenge Difficulty Levels
+- **Easy**: Basic state management, simple event handling
+- **Medium**: Complex state, multiple components, form handling
+- **Hard**: Advanced patterns, custom hooks, complex logic
+- **Expert**: Performance optimization, advanced React patterns
+
+## Best Practices
+- Keep challenges focused on specific React concepts
+- Provide clear, actionable requirements
+- Test the challenge yourself before finalizing
+- Ensure the starting code compiles and renders
