@@ -1,0 +1,27 @@
+---
+description: Tech interview prep repository rules
+globs:
+alwaysApply: true
+---
+
+# Tech Interview Prep Repository
+
+## Project Overview
+This repository is designed for preparing for technical interviews. It contains practice problems, coding challenges, and systems design documentation to help build interview skills.
+
+## Project Structure
+- `react/` - React-based coding challenges and practice problems
+- `systems-design/` - Systems design documentation and diagrams
+
+## Purpose
+- Practice coding algorithms and data structures
+- Learn React concepts through hands-on challenges
+- Study systems design patterns and architectures
+- Build a portfolio of interview-ready solutions
+- Track progress and identify areas for improvement
+
+## Content Types
+- **Coding Challenges**: Algorithm problems, data structure implementations
+- **React Projects**: Component building, state management, hooks practice
+- **Systems Design**: Architecture diagrams, scalability patterns, trade-offs
+- **Documentation**: Explanations, complexity analysis, real-world examples
