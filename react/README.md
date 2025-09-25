@@ -7,6 +7,8 @@ This folder contains independent React practice challenges for technical intervi
 ```
 src/
 ├── projects/              # Individual React practice challenges
+├── hooks/                 # Custom React hooks for testing hooks knowledge
+├── test/                  # Test setup and utilities
 ├── index.css              # Global styles
 └── main.tsx               # Entry point
 ```
@@ -27,6 +29,51 @@ import App from './projects/counter/App.tsx'
 import App from './projects/form/App.tsx'
 ```
 
+## Adding New Projects
+
+1. Create a new folder in `src/projects/`
+2. Add `App.tsx` with basic component structure
+3. Add `App.css` with styling
+4. Import CSS in `App.tsx`: `import './App.css'`
+5. Create `DESCRIPTION.md` with challenge details:
+
+```
+# [Challenge Name]
+
+## Difficulty: [Easy/Medium/Hard/Expert]
+
+## Description
+[Brief explanation of what to build]
+
+## Requirements
+- [Specific requirement 1]
+- [Specific requirement 2]
+- [Specific requirement 3]
+```
+
+6. Update the import in `src/main.tsx` to point to your new project
+
+## Adding New Hooks
+
+1. Create a new folder in `src/hooks/` named after the hook (e.g., `useCounter`)
+2. Add `useX.ts` with hook implementation
+3. Add `useX.test.ts` with comprehensive tests
+4. Add `DESCRIPTION.md` with challenge details:
+
+```
+# useX Hook
+
+## Difficulty: [Easy/Medium/Hard/Expert]
+
+## Description
+[Brief explanation of what the hook should do]
+
+## Requirements
+- [Specific requirement 1]
+- [Specific requirement 2]
+- [Specific requirement 3]
+```
+
 ## Setup and Run
 
 1. Install dependencies:
@@ -39,5 +86,10 @@ import App from './projects/form/App.tsx'
    npm run dev
    ```
 
-3. Open your browser to the provided local URL
+4. Open your browser to the provided local URL
+
+## Testing
+```bash
+  npm test
+```
 

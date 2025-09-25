@@ -11,7 +11,9 @@ This is a React practice environment for technical interview preparation. Each p
 
 ## Project Structure
 - `src/projects/` - Individual React coding challenges
+- `src/hooks/` - Custom React hooks for testing hooks knowledge
 - Each project folder contains: `App.tsx`, `App.css`, and `DESCRIPTION.md`
+- Each hook folder contains: `useX.ts`, `useX.test.ts`, and `DESCRIPTION.md`
 - Switch between projects by changing the import in `src/main.tsx`
 
 ## Creating New Challenges
@@ -50,8 +52,38 @@ This is a React practice environment for technical interview preparation. Each p
 - **Hard**: Advanced patterns, custom hooks, complex logic
 - **Expert**: Performance optimization, advanced React patterns
 
+## Creating New Hooks
+
+### 1. Hook Setup
+- Create a new folder in `src/hooks/` named after the hook (e.g., `useCounter`)
+- Add `useX.ts` with hook implementation
+- Add `useX.test.ts` with comprehensive tests
+- Add `DESCRIPTION.md` with challenge details
+
+### 2. Hook DESCRIPTION.md Format
+```
+# useX Hook
+
+## Difficulty: [Easy/Medium/Hard/Expert]
+
+## Description
+[Brief explanation of what the hook should do]
+
+## Requirements
+- [Specific requirement 1]
+- [Specific requirement 2]
+- [Specific requirement 3]
+```
+
+### 3. Testing Guidelines
+- Use `@testing-library/react` for hook testing
+- Test all hook functionality and edge cases
+- Use `renderHook` and `act` for testing hooks
+- Ensure tests pass before finalizing the challenge
+
 ## Best Practices
 - Keep challenges focused on specific React concepts
 - Provide clear, actionable requirements
 - Test the challenge yourself before finalizing
 - Ensure the starting code compiles and renders
+- For hooks: provide comprehensive test coverage
