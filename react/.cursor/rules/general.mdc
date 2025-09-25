@@ -52,6 +52,7 @@ This is a React practice environment for technical interview preparation. Each p
 - **Non-functional elements**: Keep UI components but remove event handlers and logic
 - **Import structure**: Keep necessary imports but remove unused ones
 - **Component structure**: Maintain the visual layout and styling
+- **No implementation hints**: Never tell users how to implement something, only what needs to be implemented. Don't provide interfaces, states or stub functions, leave that to the implementer.
 
 ### 4. Challenge Difficulty Levels
 
