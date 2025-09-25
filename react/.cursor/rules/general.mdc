@@ -7,11 +7,13 @@ alwaysApply: true
 # React Tech Interview Prep
 
 ## Project Overview
+
 This is a React practice environment for technical interview preparation. Each project is a self-contained coding challenge that tests specific React concepts and skills.
 
 ## Project Structure
-- `src/projects/` - Individual React coding challenges
-- `src/hooks/` - Custom React hooks for testing hooks knowledge
+
+- `src/projects/` - Individual React coding challenges (numbered: 01-counter, 02-todo-list, etc.)
+- `src/hooks/` - Custom React hooks for testing hooks knowledge (numbered: 01-useCounter, 02-useToggle, etc.)
 - Each project folder contains: `App.tsx`, `App.css`, and `DESCRIPTION.md`
 - Each hook folder contains: `useX.ts`, `useX.test.ts`, and `DESCRIPTION.md`
 - Switch between projects by changing the import in `src/main.tsx`
@@ -19,12 +21,16 @@ This is a React practice environment for technical interview preparation. Each p
 ## Creating New Challenges
 
 ### 1. Project Setup
-- Create a new folder in `src/projects/`
+
+- Create a new numbered folder in `src/projects/` (e.g., `03-form`, `04-calculator`)
+  - Use the next sequential number (increment from the highest existing number)
+  - Format: `##-[project-name]` (e.g., `01-counter`, `02-todo-list`)
 - Add `App.tsx` with basic component structure
 - Add `App.css` with styling
 - Import CSS in `App.tsx`: `import './App.css'`
 
 ### 2. DESCRIPTION.md Format
+
 ```
 # [Challenge Name]
 
@@ -40,6 +46,7 @@ This is a React practice environment for technical interview preparation. Each p
 ```
 
 ### 3. Implementation Guidelines
+
 - **Leave space for implementation**: Remove core logic, keep UI structure and layout
 - **Static values**: Use placeholder values instead of dynamic data
 - **Non-functional elements**: Keep UI components but remove event handlers and logic
@@ -47,6 +54,7 @@ This is a React practice environment for technical interview preparation. Each p
 - **Component structure**: Maintain the visual layout and styling
 
 ### 4. Challenge Difficulty Levels
+
 - **Easy**: Basic state management, simple event handling
 - **Medium**: Complex state, multiple components, form handling
 - **Hard**: Advanced patterns, custom hooks, complex logic
@@ -55,12 +63,16 @@ This is a React practice environment for technical interview preparation. Each p
 ## Creating New Hooks
 
 ### 1. Hook Setup
-- Create a new folder in `src/hooks/` named after the hook (e.g., `useCounter`)
+
+- Create a new numbered folder in `src/hooks/` (e.g., `02-useToggle`, `03-useLocalStorage`)
+  - Use the next sequential number (increment from the highest existing number)
+  - Format: `##-useX` (e.g., `01-useCounter`)
 - Add `useX.ts` with hook implementation
 - Add `useX.test.ts` with comprehensive tests
 - Add `DESCRIPTION.md` with challenge details
 
 ### 2. Hook DESCRIPTION.md Format
+
 ```
 # useX Hook
 
@@ -76,12 +88,14 @@ This is a React practice environment for technical interview preparation. Each p
 ```
 
 ### 3. Testing Guidelines
+
 - Use `@testing-library/react` for hook testing
 - Test all hook functionality and edge cases
 - Use `renderHook` and `act` for testing hooks
 - Ensure tests pass before finalizing the challenge
 
 ## Best Practices
+
 - Keep challenges focused on specific React concepts
 - Provide clear, actionable requirements
 - Test the challenge yourself before finalizing

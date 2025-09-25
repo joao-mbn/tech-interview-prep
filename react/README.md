@@ -23,15 +23,17 @@ src/
 
 ```tsx
 // Current project (Counter)
-import App from './projects/counter/App.tsx'
+import App from './projects/01-counter/App.tsx';
 
-// Switch to Form project
-import App from './projects/form/App.tsx'
+// Switch to Todo List project
+import App from './projects/02-todo-list/App.tsx';
 ```
 
 ## Adding New Projects
 
-1. Create a new folder in `src/projects/`
+1. Create a new numbered folder in `src/projects/` (e.g., `03-form`, `04-calculator`)
+   - Use the next sequential number (increment from the highest existing number)
+   - Format: `##-[project-name]` (e.g., `01-counter`, `02-todo-list`)
 2. Add `App.tsx` with basic component structure
 3. Add `App.css` with styling
 4. Import CSS in `App.tsx`: `import './App.css'`
@@ -55,7 +57,9 @@ import App from './projects/form/App.tsx'
 
 ## Adding New Hooks
 
-1. Create a new folder in `src/hooks/` named after the hook (e.g., `useCounter`)
+1. Create a new numbered folder in `src/hooks/` (e.g., `02-useToggle`, `03-useLocalStorage`)
+   - Use the next sequential number (increment from the highest existing number)
+   - Format: `##-useX` (e.g., `01-useCounter`)
 2. Add `useX.ts` with hook implementation
 3. Add `useX.test.ts` with comprehensive tests
 4. Add `DESCRIPTION.md` with challenge details:
@@ -77,19 +81,21 @@ import App from './projects/form/App.tsx'
 ## Setup and Run
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Start development server:
+
    ```bash
    npm run dev
    ```
 
-4. Open your browser to the provided local URL
+3. Open your browser to the provided local URL
 
 ## Testing
+
 ```bash
   npm test
 ```
-
