@@ -3,6 +3,6 @@ export function useCounter(initialValue: number = 0) {
     count: 0,
     increment: () => {},
     decrement: () => {},
-    reset: () => {}
-  }
+    reset: () => {},
+  };
 }

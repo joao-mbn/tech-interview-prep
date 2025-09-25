@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 
 function App() {
   return (
@@ -8,14 +8,10 @@ function App() {
       <div className="counter-display">
         <span className="count">0</span>
       </div>
-      <button className="increment-btn">
-        Click me!
-      </button>
-      <button className="reset-btn">
-        Reset
-      </button>
+      <button className="increment-btn">Click me!</button>
+      <button className="reset-btn">Reset</button>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

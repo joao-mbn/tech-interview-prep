@@ -3,6 +3,7 @@
 ## Difficulty: Easy
 
 ## Description
+
 Create a custom React hook that manages a counter state with increment, decrement, and reset functionality. This hook should encapsulate counter logic and provide a clean interface for components to use.
 
 ## Requirements

@@ -3,6 +3,7 @@
 ## Difficulty: Easy
 
 ## Description
+
 Create a simple counter component that allows users to increment a number and reset it back to zero. This is a fundamental React challenge that tests your understanding of state management and event handling.
 
 ## Requirements

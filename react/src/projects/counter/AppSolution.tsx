@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 
 function App() {
-  const [counter, setCounter] = useState(0)
+  const [counter, setCounter] = useState(0);
   return (
     <div className="counter-app">
       <h1>Counter Challenge</h1>
@@ -17,7 +17,7 @@ function App() {
         Reset
       </button>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
