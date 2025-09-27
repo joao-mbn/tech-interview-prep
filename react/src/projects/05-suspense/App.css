@@ -1,0 +1,196 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dinosaur-list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dinosaur-list h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+.dinosaur-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.dinosaur-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dinosaur-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.dinosaur-card h3 {
+  color: #2d3748;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+.dinosaur-info {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.period {
+  background: #4299e1;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.diet {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.diet.carnivore {
+  background: #e53e3e;
+  color: white;
+}
+
+.diet.herbivore {
+  background: #38a169;
+  color: white;
+}
+
+.description {
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  color: white;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-container p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.error-container h2 {
+  color: #e53e3e;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.error-container p {
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.error-container button {
+  background: #4299e1;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.error-container button:hover {
+  background: #3182ce;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+
+  .dinosaur-list h1 {
+    font-size: 2rem;
+  }
+
+  .dinosaur-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .dinosaur-card {
+    padding: 1rem;
+  }
+
+  .dinosaur-info {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

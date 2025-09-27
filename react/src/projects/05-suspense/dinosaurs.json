@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Tyrannosaurus Rex",
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "description": "One of the largest land predators ever known, with massive jaws and powerful legs."
+  },
+  {
+    "id": 2,
+    "name": "Triceratops",
+    "period": "Late Cretaceous",
+    "diet": "Herbivore",
+    "description": "A large herbivorous dinosaur with three horns and a bony frill around its neck."
+  },
+  {
+    "id": 3,
+    "name": "Velociraptor",
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "description": "A small, fast predator with sharp claws and feathers, known for its intelligence."
+  },
+  {
+    "id": 4,
+    "name": "Brachiosaurus",
+    "period": "Late Jurassic",
+    "diet": "Herbivore",
+    "description": "One of the tallest dinosaurs, with a long neck that allowed it to reach high vegetation."
+  },
+  {
+    "id": 5,
+    "name": "Stegosaurus",
+    "period": "Late Jurassic",
+    "diet": "Herbivore",
+    "description": "Known for the distinctive plates along its back and the spikes on its tail."
+  },
+  {
+    "id": 6,
+    "name": "Allosaurus",
+    "period": "Late Jurassic",
+    "diet": "Carnivore",
+    "description": "A large theropod predator with sharp teeth and powerful arms with three-fingered hands."
+  },
+  {
+    "id": 7,
+    "name": "Diplodocus",
+    "period": "Late Jurassic",
+    "diet": "Herbivore",
+    "description": "One of the longest dinosaurs, with an extremely long neck and tail."
+  },
+  {
+    "id": 8,
+    "name": "Ankylosaurus",
+    "period": "Late Cretaceous",
+    "diet": "Herbivore",
+    "description": "A heavily armored dinosaur with a club-like tail for defense."
+  },
+  {
+    "id": 9,
+    "name": "Pteranodon",
+    "period": "Late Cretaceous",
+    "diet": "Carnivore",
+    "description": "A flying reptile with a large wingspan, feeding on fish and small animals."
+  },
+  {
+    "id": 10,
+    "name": "Parasaurolophus",
+    "period": "Late Cretaceous",
+    "diet": "Herbivore",
+    "description": "A hadrosaur with a distinctive long, curved crest on its head."
+  }
+]
