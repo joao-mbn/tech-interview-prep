@@ -61,6 +61,13 @@ This is a React practice environment for technical interview preparation. Each p
 - **Hard**: Advanced patterns, custom hooks, complex logic
 - **Expert**: Performance optimization, advanced React patterns
 
+### 5. Time Scope Requirements
+
+- **Implementation Time**: Limit scope as to make challenges completable within 40 minutes by an experienced React developer
+- **No AI Assistance**: Challenges should be solvable without the aid of AI coding tools
+- **Realistic Scope**: Focus on core React concepts rather than complex business logic
+- **Clear Requirements**: Provide enough detail to avoid ambiguity, but not implementation hints
+
 ## Creating New Hooks
 
 ### 1. Hook Setup
