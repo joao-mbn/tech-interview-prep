@@ -1,0 +1,19 @@
+[project]
+name = "django-interview-prep"
+version = "0.1.0"
+description = "Django practice environment for technical interview preparation"
+authors = [
+    {name = "Joao"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "django>=5.0; python_version >= '3.12'",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
